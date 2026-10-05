@@ -400,7 +400,7 @@
     // CONEXIÓN CON EL SERVICIO (Apps Script)
     // Pega aquí la URL de tu implementación de Apps Script (termina en /exec).
     // ===================================================================
-    const URL_SERVICIO = "https://script.google.com/macros/s/AKfycbx11-ppY16UiCw35MR50sLD88xYAp5DYlYa5DfDiH3_Elme5hU5RvxUK3FOTpnTgF2D/exec";
+   const URL_SERVICIO = "https://script.google.com/macros/s/AKfycbzln1XcAvYsVnLJ21p2Fgzv_N3BPVowbHp8qLLYF6e6K4LqN4Lps9Sy972VsXD8Whnp/exec";
 
     // Forma corta de la URL (sin /a/macros/dominio): suele funcionar mejor desde otros sitios.
     const URL_CORTA = URL_SERVICIO.replace(/\/a\/macros\/[^\/]+\/s\//, "/macros/s/");
@@ -408,7 +408,7 @@
 
     // Llama al servicio. Devuelve una promesa con el JSON de respuesta o lanza Error con un motivo legible.
     function llamarServicio(datos) {
-      if (!URL_SERVICIO || URL_SERVICIO.indexOf("https://script.google.com/macros/s/AKfycbx11-ppY16UiCw35MR50sLD88xYAp5DYlYa5DfDiH3_Elme5hU5RvxUK3FOTpnTgF2D/exec") === 0) {
+      if (!Ihttps://script.google.com/macros/s/AKfycbzln1XcAvYsVnLJ21p2Fgzv_N3BPVowbHp8qLLYF6e6K4LqN4Lps9Sy972VsXD8Whnp/exec"; === 0) {
         return Promise.reject(new Error("Falta configurar URL_SERVICIO en el HTML."));
       }
       const codigoEl = document.getElementById("codigoClase");
